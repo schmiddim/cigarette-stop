@@ -5,8 +5,8 @@ shows you the number of days since you stopped smoking, how many cigarettes you 
 
 Requirements
 ============
-cli.php just need php
-nosmoking just needs bash and bc
+- cli.php just need php
+- nosmoking just needs bash and bc
 
 Usage
 =====

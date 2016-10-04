@@ -17,7 +17,7 @@ function getSmokingString(\DateTime $dateStopped, $cigarettesPerDay=0, $pricePer
 	$cigarettesNotSmokedToday = round($cigarettesPerDay / 24 * $hoursToday,0);
 	$cigarettesNotSmoked = $daysWithoutSmoking * $cigarettesPerDay + $cigarettesNotSmokedToday;
 	$moneySaved = $pricePerCigarette * $cigarettesNotSmoked;
-	return sprintf('You stopped smoking %d days ago. Saved %d Euro, didnt\'t smoke %d cigarettes', $daysWithoutSmoking, $moneySaved, $cigarettesNotSmoked);
+	return sprintf('You stopped smoking %d days ago. Saved %d Euro and you didnt\'t smoked %d cigarettes', $daysWithoutSmoking, $moneySaved, $cigarettesNotSmoked);
 }
 
 

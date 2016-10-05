@@ -16,7 +16,9 @@ Usage
 
 or
 
->nosmoking [date-stopped (Y-m-D)] [cigarettes per day] [price / cigarette]
+>nosmoking.sh [date-stopped (Y-m-D)] [cigarettes per day] [price / cigarette]
+
+or
 
 >go run nonsmoking.go [date-stopped (Y-m-D)] [cigarettes per day] [price / cigarette]
 

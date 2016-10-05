@@ -7,6 +7,7 @@ Requirements
 ============
 - cli.php just need php
 - nosmoking just needs bash and bc
+- nonsmoking.go can be comiled with go
 
 Usage
 =====
@@ -16,6 +17,8 @@ Usage
 or
 
 >nosmoking [date-stopped (Y-m-D)] [cigarettes per day] [price / cigarette]
+
+>go run nonsmoking.go [date-stopped (Y-m-D)] [cigarettes per day] [price / cigarette]
 
 Example
 ------

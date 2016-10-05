@@ -1,23 +1,16 @@
 package main
 
-import (
-	"time"
-	"fmt"
-	"os"
-	"strconv"
-)
-
-
 /*
 example  ./smoke-stop  2016-09-19 30 0.285714286
  */
 
 import (
-	"os"
-	"fmt"
 	"time"
+	"fmt"
+	"os"
 	"strconv"
 )
+
 
 func getSmokingString(dateStopped time.Time, cigarettesPerDay int64, pricePerCigarette float64) string {
 	today := time.Now()

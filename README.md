@@ -5,9 +5,10 @@ shows you the number of days since you stopped smoking, how many cigarettes you 
 
 Requirements
 ============
-- cli.php just need php
-- nosmoking just needs bash and bc
+- nonsmoking.php need php
+- nosmoking.sh just needs bash and bc
 - nonsmoking.go can be comiled with go
+- nonsmoking.js needs node.js
 
 Usage
 =====
@@ -21,6 +22,10 @@ or
 or
 
 >go run nonsmoking.go [date-stopped (Y-m-D)] [cigarettes per day] [price / cigarette]
+
+or
+
+> node  nonsmoking.js [date-stopped (Y-m-D)] [cigarettes per day] [price / cigarette]
 
 Example
 ------

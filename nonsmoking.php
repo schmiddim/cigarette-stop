@@ -1,7 +1,7 @@
 <?php
 /**
  *
- * example    php cli.php 2016-09-19 30 0.285714286
+ * example    php nonsmoking.php 2016-09-19 30 0.285714286
  */
 
 if (4 !== $argc) {

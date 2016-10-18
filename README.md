@@ -9,6 +9,7 @@ Requirements
 - nosmoking.sh just needs bash and bc
 - nonsmoking.go can be comiled with go
 - nonsmoking.js needs node.js
+- nonsmoking.cs needs mono
 
 Usage
 =====
@@ -27,6 +28,10 @@ or
 
 > node  nonsmoking.js [date-stopped (Y-m-D)] [cigarettes per day] [price / cigarette]
 
+or gmcs stopsmoking.cs && mono nonsmoking.exe [date-stopped (Y-m-D)] [cigarettes per day] [price / cigarette]
+
+
+> 
 Example
 ------
 >php cli.php 2016-09-19 30 0.285714286
